@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html lang="en" class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html lang="en" class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html lang="en" class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html lang="cn" class="no-js"> <!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+	<title>IT软件路</title>
+	<link rel="stylesheet" href="css/jquery.fancybox.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/jquery.fullPage.css">
+	<link rel="stylesheet" type="text/css" href="css/myfullpage.css">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="shortcut icon" href="img/favicon.ico">
+
+	<!-- Mobile Specific Meta -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+        <header id="navigation" class="navbar-inverse navbar-fixed-top animated-header">
+            <div class="container">
+                <div class="navbar-header">
+                    <!-- responsive nav button -->
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+                    </button>
+					<!-- /responsive nav button -->
+					
+					<!-- logo -->
+					<h1 class="navbar-brand">
+						<a href="#">
+							<img src="img/logo.png" class="logo" alt="logo">
+						</a>
+					</h1>
+					<!-- /logo -->
+                </div>
+
+				<!-- main nav -->
+                <nav class="collapse navbar-collapse navbar-right" role="navigation">
+                    <ul id="nav" class="nav navbar-nav">
+						<li><a href="#" onclick="window.open('index.html')">首页</a></li>
+        				<li><a href="#service" onclick="window.open('ruanjian.html')">IT软件路</a></li>
+        				<li><a href="#portfolio" onclick="window.open('jingjilu.html')">IT经济路</a></li>
+        				<li><a href="#testimonials" onclick="window.open('xinxilu.html')">IT信息路</a></li>
+        				<li><a href="#price" onclick="window.open('weilailu.html')">IT未来路</a></li>
+        				<li><a href="#contact" onclick="window.open('guangxiit.html')">广西IT产业路</a></li>
+        				<li><a href="#" onclick="window.open('gallery.html')">印象丝路</a></li>
+        				<li><a href="#" onclick="window.open('about.html')">我们的团队</a></li>
+        			</ul>
+                    </ul>
+                </nav>
+				
+            </div>
+        </header>
+	
+	<div class="section section-fp section1">
+		<div class="fp1"><img src="img/fp1.png" class="img-responsive" alt="fp1"></div>
+		<div class="fp2"><img src="img/fp2.png" class="img-responsive" alt="fp2"></div>
+		<div class="fp-title title text-center white">
+			<h2>IT软件路</h2>
+		</div>
+		<div class="container">		
+			<span>
+				信息技术的无疆域性已让越来越多的国内软件信息企业不再满足本土市场， 借助当前“一路一带”的政策良机，我国软件信息产业的跨境电子商务领域、 通信信息领域、交通基础软件领域、适合国际化的通用型管理软件领域、软 件外包领域将迎来巨大发展机遇。
+			</span>
+		</div>
+	</div>
+
+	<div class="section section-fp section2">
+		<div class="fp3"><img src="img/fp3.png" class="img-responsive" alt="fp3"></div>
+		<div class="car"></div>
+		<div class="fp-title title text-center white">
+			<h2>软件海外扩张</h2>
+		</div>
+		<div class="container">		
+			<span>
+				事实上，信息技术的无疆域性已让越来越多的国内软件信息企业不再满足本土市场，纷纷放眼海外，谋求更大的发展空间。中国企业目前开始专注于高科技、IT、电信等行业，并积极在北美、欧洲、东南亚等成熟市场寻找优质并购目标，将中国的资金、技术、知识产权、品牌引入所在国。
+			</span>
+		</div>
+	</div>
+
+	<div class="section section-fp section3">
+		<div class="fp-title title text-center white">
+			<h2>跨境电商</h2>
+		</div>
+		<div class="container">		
+			<span>
+				如传统电商只提供商品展示和商品交易撮合服务，对上架的商品质量和真伪缺乏监管；经销商的层层加价，使商品价格居高不下等。面对商机与挑战，能精选海外国家原产地大量丰富商品，并提供商品订购、在线支付、金融贷款等相关配套服务的跨境电子商务平台、互联网厂商，必然迎来重大发展机遇这一切都离不开一带一路的发展。
+			</span>
+		</div>
+		<div class="robot"></div>
+	</div>
+
+	<!-- Main jQuery -->
+	<script src="js/jquery-1.11.1.min.js"></script>
+	<!-- Twitter Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Single Page Nav -->
+	<script src="js/jquery.singlePageNav.min.js"></script>	
+	<!-- i18n -->
+	<script src="js/jquery.i18n.min.js"></script>	
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="js/jquery.fullPage.min.js"></script>
+
+	<script>
+		
+		$(function(){
+			$.fn.fullpage({
+				verticalCentered: false,
+				anchors: ['page1', 'page2', 'page3'],
+				navigation: true,
+				navigationTooltips: ['商业交易','海外扩张','跨境电商']
+			});
+		});
+
+	</script>
+</body>
+
+</html>
